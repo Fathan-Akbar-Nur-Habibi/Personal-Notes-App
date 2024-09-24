@@ -1,14 +1,14 @@
-# Private Notes App
+# Personal Notes App
 
 This is a web app using React that can add and delete notes.  
 
-Private  Notes App
+Personal  Notes App
 
 Language : HTML,CSS, JacaScript
 
 FrameWork : React.js 
 
-![alt text](https://github.com/Fathan-Akbar-Nur-Habibi/Private-Notes-App/blob/main/public/Private-Notes-App.gif?raw=true)
+![alt text](?raw=true)
 
 has the following criteria 
 

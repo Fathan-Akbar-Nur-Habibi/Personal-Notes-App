@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Private Notes App</h1>
+      <h1>Personal Notes App</h1>
       <SearchBar keyword={searchKeyword} onSearch={setSearchKeyword} />
       <h2>Add Note</h2>
       <NoteForm onAddNote={addNoteHandler} />
