@@ -34,13 +34,13 @@ const NoteForm = ({ onAddNote }) => {
       <p>Remaining Characters: {titleLimit}</p>
       <input 
         type="text"
-        placeholder="Judul Catatan"
+        placeholder="Title Note"
         value={title}
         onChange={handleTitleChange}
         required 
       />
       <textarea 
-        placeholder="Isi Catatan"
+        placeholder="Content"
         value={body}
         onChange={(e) => setBody(e.target.value)}
         required 

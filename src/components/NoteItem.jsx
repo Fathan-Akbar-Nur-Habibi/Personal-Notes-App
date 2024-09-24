@@ -7,7 +7,7 @@ const NoteItem = ({ id, title, body, archived, onDelete, onArchive }) => {
       <p>{body}</p>
       <div className="note-item__actions">
         <button onClick={() => onDelete(id)}>Delete</button>
-        <button onClick={() => onArchive(id)}>{archived ? 'Pindahkan' : 'Arsipkan'}</button>
+        <button onClick={() => onArchive(id)}>{archived ? 'Move' : 'Archieve'}</button>
       </div>
     </div>
   );
