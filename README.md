@@ -8,7 +8,7 @@ Language : HTML,CSS, JacaScript
 
 FrameWork : React.js 
 
-![alt text](?raw=true)
+![alt text](https://github.com/Fathan-Akbar-Nur-Habibi/Personal-Notes-App/blob/main/public/Personal-Notes-App.gif?raw=true)
 
 has the following criteria 
 
