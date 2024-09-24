@@ -1,8 +1,45 @@
-# React + Vite
+# Private Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web app using React that can add and delete notes.  
 
-Currently, two official plugins are available:
+Private  Notes App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Language : HTML,CSS, JacaScript
+FrameWork : React.js ![ReactjsGIF](https://github.com/user-attachments/assets/cb3a348d-87ba-43b1-bac8-825114ea61c2)
+
+
+has the following criteria 
+
+1) Able to Display List of Records
+
+--> The application must be able to display a list of notes with the initial data that we have provided.
+--> Utilize the state component to store the note data.
+--> Using array map technique to display the list of notes.
+
+2) Capable of Adding Records
+
+--> The application must be able to add new note data.
+--> Utilize controlled components in creating input forms.
+--> Note data is stored in memory only (will be lost if the browser is refreshed).
+--> The note data stored is a JavaScript object
+
+3) Ability to Delete Records
+
+--> The application should provide a delete button to delete the saved note data.
+--> conditional rendering where if there is no note data, then the UI displays the message “No note” or any message that indicates the note data is empty.
+
+4) There is a Note Search Feature
+
+
+--> The application has a note search feature based on the entered keywords, with the conditions:
+	--> If the search field is not empty, then the application only displays a list of notes whose titles contain the entered keywords.
+	-->If the search field is empty, then the application displays all notes.
+
+--> Utilize controlled components in building the note feature.
+
+
+5) Character Limit on Note Title Input
+
+6) Note Archive Feature
+
+
