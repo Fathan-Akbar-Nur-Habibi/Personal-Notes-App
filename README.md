@@ -4,7 +4,7 @@ This is a web app using React that can add and delete notes.
 
 Personal  Notes App
 
-Language : HTML,CSS, JacaScript
+Language : HTML,CSS, JavaScript
 
 FrameWork : React.js 
 
