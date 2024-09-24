@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  background-image: url('/Background.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  animation: moveBackground 30s linear infinite; 
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.app h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.note-item {
+  background-color: #fefae0; /* Warna lembut untuk catatan */
+  border: 1px solid #e4d1b9;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.note-item p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.note-item__actions {
+  text-align: right;
+}
+
+.note-item__actions button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.note-item__actions button:hover {
+  background-color: #e63946; /* Warna merah pada hover */
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.note-form {
+  background-color: #faedcd; /* Warna lembut untuk formulir */
+  border: 1px solid #ffcb77;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-form input,
+.note-form textarea {
+  width: calc(100% - 20px); /* Perbaikan untuk padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-form input:focus,
+.note-form textarea:focus {
+  outline: none;
+  border-color: #8ecae6; /* Warna biru saat fokus */
+  box-shadow: 0 0 5px rgba(142, 202, 230, 0.5);
+}
+
+.note-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a9d8f; /* Warna hijau */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.note-form button:hover {
+  background-color: #21867a;
+  transform: scale(1.05);
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.search-bar input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-list p {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Menggerakkan gambar latar belakang */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}
+
+footer a {
+  color: #219ebc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
