@@ -5,7 +5,8 @@ This is a web app using React that can add and delete notes.
 Private  Notes App
 
 Language : HTML,CSS, JacaScript
-FrameWork : React.js ![ReactjsGIF](https://github.com/user-attachments/assets/cb3a348d-87ba-43b1-bac8-825114ea61c2)
+
+FrameWork : React.js 
 
 
 has the following criteria 
