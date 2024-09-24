@@ -8,6 +8,7 @@ Language : HTML,CSS, JacaScript
 
 FrameWork : React.js 
 
+![alt text](https://github.com/Fathan-Akbar-Nur-Habibi/Private-Notes-App/blob/main/public/Private-Notes-App.gif?raw=true)
 
 has the following criteria 
 
